@@ -1,0 +1,52 @@
+
+.Home {
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin: 0;
+}
+
+.Home-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+}
+
+@media (min-width: 650px ) {
+    .Home {
+        background-position: center center;
+    }
+
+    .Home-content {
+        align-items: flex-end;
+        justify-content: center;
+    }
+}
+body, html {
+    height: 100%;
+    margin: 0;
+}
+.heading {
+    padding: 5px 9px;
+    transition-duration: 0.4s;
+}
+.heading:hover {
+    padding: 9px 12px;
+}
+.blue {
+    color: #56acc6;
+}
+.text{
+    transition-duration: 0.4s;
+}
+.text:hover {
+    padding: 1px 2.5px;
+}
+.black {
+    color: #000000;
+}
+

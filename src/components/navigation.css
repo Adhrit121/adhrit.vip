@@ -1,0 +1,76 @@
+.grow {
+    color: #ffffff;
+    transition-duration: 0.5s;
+}
+.grow:hover {
+    color: #000080;
+    padding: 4px 6px;
+}
+
+.grows {
+    color: #ffffff;
+    transition-duration: 0.4s;
+}
+.grows:hover {
+    color: #000000;
+    padding: 1px 3px;
+}
+.purple {
+    color: #9b4cc9;
+}
+.color-purple {
+    color: #9b4cc9;
+}
+.footerg {
+    color: #ffffff;
+    transition-duration: 0.4s;
+}
+.footerg:hover {
+    color: #000000;
+    padding: 1px 3px;
+}
+.dont_click {
+    color: #ffd000;
+    transition-duration: 0.4s;
+}
+.dont_click:hover {
+    color: #ff0000;
+    padding: 1px 3px;
+}
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+  
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.button:hover span {
+    padding-right: 25px;
+}
+  
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}

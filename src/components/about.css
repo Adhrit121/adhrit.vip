@@ -1,0 +1,16 @@
+.heading {
+    padding: 5px 9px;
+    transition-duration: 0.4s;
+}
+.heading:hover {
+    padding: 11px 15px;
+}
+.blue {
+    color: #56acc6;
+}
+.text{
+    transition-duration: 0.4s;
+}
+.text:hover {
+    padding: 1px 2.5px;
+}
