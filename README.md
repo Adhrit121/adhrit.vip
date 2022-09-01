@@ -1,4 +1,10 @@
 # Adhrit.vip
 
-This project was bootstrapped with [Create React App]
+## A Multi page website/portfolio with side navbar and animations
+
+
+
+
+### Built using npm [create-react-app]
+
 
