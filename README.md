@@ -7,6 +7,7 @@
 #  
 #  
 #  
-#### Old version of website: https://github.com/Adhrit121/-old
+#  
+#### Original version of this: https://github.com/Adhrit121/-old
 #### View it here: https://old.adhrit.vip
 
